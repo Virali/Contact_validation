@@ -1,0 +1,43 @@
+body {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+   text-align: center;
+}
+
+.main-container {
+   width: 750px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 15px;
+}
+
+.main-container * {
+   margin: 5px;
+}
+
+.input-container {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   margin-left: 20%
+}
+
+label {
+   display: inline-block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   font-weight: 700;
+}
+
+.item {
+   display: contents;
+}
+
+.submit-button {
+   width: 100px;
+   margin: auto;
+}
